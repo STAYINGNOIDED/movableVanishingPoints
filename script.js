@@ -38,8 +38,8 @@ document.addEventListener("keydown", function(e){
 document.addEventListener("keyup", function(e){
 	if ( e.keyCode == 13 ){ enterPress = false; }});
 document.addEventListener("keydown", function(e){
-	if ( e.keyCode == 8 && !undoPress ) { undoPress = true; if( rects.length > 0 ){ rects.pop(); } } });
-document.addEventListener("keyup", function(e){ if( e.keyCode == 8 ){ undoPress = false; } });
+	if ( e.keyCode == 220 && !undoPress ) { undoPress = true; if( rects.length > 0 ){ rects.pop(); } } });
+document.addEventListener("keyup", function(e){ if( e.keyCode == 220 ){ undoPress = false; } });
 
 temp1   = [];
 temp2   = [];
